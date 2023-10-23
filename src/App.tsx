@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <SideNav />
       <Routes>
-        <Route path={"/lab_5"} element={<FirstTask />} />
+        <Route path={"/"} element={<FirstTask />} />
         <Route path={"/second"} element={<SecondTask />} />
       </Routes>
     </BrowserRouter>
